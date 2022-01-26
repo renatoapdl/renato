@@ -19,10 +19,63 @@ body {
 body#bandas {
     background-image: url(imagens/fundo.jpg);
 }
+header {
+    background-image: linear-gradient(to bottom, #09394D, #1577a1);
+    min-height: 170px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 0px;
+  
+    
+}
+
+header h1 {
+    color: white;
+    background-color: #09394d00;
+    font-weight: normal;
+    margin-top: 10px;   
+    font-size: 3em;
+    text-shadow: 4px 4px 1px rgb(0, 0, 0);
+}
+
+header p {
+    color: white;
+    font-size: 1.3em;
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
+
+}
+
+nav {
+    background-color: #031a24 );
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+nav a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #09394D;
+    color: white;
+    transition: .5s;
+    text-decoration: none;
+    
+}
+
 
 
 main {
-    background-color: rgba(255, 255, 255, 0.877);
+    background-color: rgba(255, 255, 255, 0.904);
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(160, 155, 155, 0.849);
     width: 700px;
@@ -42,7 +95,10 @@ h2 {
     font-family: 'Kaushan Script', serif;
     color: #09394D;
     padding: 10px;
+    text-align: left;
+    text-indent: 30px;
 }
+
 p {
     
     text-align: justify;
@@ -53,6 +109,7 @@ p {
     margin-right: 10px;
     margin-bottom: 0pt;
     padding: 0pt;
+    
   
 }
 
@@ -113,6 +170,8 @@ a.img {
 
 a.img:hover {
     box-shadow: 0px 3px 6px 1px rgb(68, 65, 65);
+    height: 200px;
+    width: 200px;
 }
 
 
