@@ -195,5 +195,12 @@ a.img:hover {
     width: 200px;
 }
 
+.info-familia a {
+   text-decoration: underline;
+}
 
+.info-familia a:hover {
+    font-size: 1em;
+    text-decoration: none;
+}
 
