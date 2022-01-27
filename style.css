@@ -13,15 +13,14 @@
 
 body {
     background-image: linear-gradient(to bottom, #8eb7ee, #fdfdfd );
-
+    margin-top: 0px ;
 }
 
-body#bandas {
-    background-image: url(imagens/fundo.jpg);
-}
+
 header {
     background-image: linear-gradient(to bottom, #09394D, #1577a1);
     min-height: 170px;
+    margin-bottom: 0px;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 0px;
@@ -73,6 +72,16 @@ nav a:hover {
     padding-bottom: 29px;
 }
 
+.menu-bandas a {
+    background-color: #09394D;
+    color: white;  
+    }
+
+.menu-bandas a:hover {
+        background-color: #062735;
+        color: white;
+        padding-bottom: 20px;
+        }
 
 
 main {
@@ -90,6 +99,7 @@ h1 {
     color: white;
     text-align: center;
     font-family: 'Kaushan Script', serif;
+    margin-bottom: 5px;
 }
 h2 {
     width: 300px;
@@ -128,7 +138,7 @@ div {
 
 }
 footer#rodape {
-	background-color: rgb(129, 118, 118);
+	background-color: rgb(252, 252, 252);
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(160, 155, 155, 0.849);
     width: 700px;
