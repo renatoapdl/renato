@@ -11,6 +11,8 @@
 }
 
 body {
+    width: 100%;
+    height: 100%;
     background-image: linear-gradient(to bottom, #8eb7ee, #fdfdfd );
     margin-top: 0px ;
 }
@@ -36,8 +38,7 @@ body {
 } 
 
 .flex-item {
-    padding: 15px;
-    
+    padding: 15px;    
 }
 
 .flex-item:hover {
@@ -127,7 +128,7 @@ main {
     background-color: rgba(255, 255, 255, 0.904);
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 10px rgba(160, 155, 155, 0.849);
-    width: 700px;
+    width: 800px;
     padding: 10px;   
     margin: auto;
     margin-top: 180px;
