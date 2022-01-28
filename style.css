@@ -51,7 +51,10 @@ header {
     padding-top: 10px;
     padding-bottom: 0px;
     box-shadow: 3px 3px 10px rgba(90, 84, 84, 0.938);
-    
+    position: fixed;
+    top:0;
+    width: 100%;
+    z-index: 99;  
 }
 
 header h1 {
@@ -125,9 +128,9 @@ main {
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 10px rgba(160, 155, 155, 0.849);
     width: 700px;
-    padding: 10px;
-    
+    padding: 10px;   
     margin: auto;
+    margin-top: 180px;
     text-align: justify;
 }
 
