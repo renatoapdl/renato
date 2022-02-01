@@ -122,6 +122,10 @@ nav a:hover {
     padding-bottom: 20px;
 }
 
+#redes > p {
+    text-align: center;
+}
+
 main {
     background-color: rgba(255, 255, 255, 0.904);
     border-radius: 0px 0px 10px 10px;
@@ -143,7 +147,7 @@ h1 {
 }
 
 h2 {
-    width: 300px;
+    width: 700px;
     font-family: 'Kaushan Script', serif;
     color: #09394D;
     padding: 10px;
