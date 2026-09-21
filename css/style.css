@@ -12,7 +12,8 @@
 
 body {
     background-image: linear-gradient(to bottom, #8eb7ee, #fdfdfd );
-    margin-top: 0px ;
+    margin-top: 0px;
+    line-height: 1.6;
 }
 
 .flex-container {
@@ -31,12 +32,24 @@ body {
     border-radius: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-   
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 } 
 
 .flex-item {
-    padding: 15px;    
+    padding: 5px;    
+    flex: 0 0 auto;
+}
+
+.flex-item a.img {
+    display: block;
+}
+
+.flex-item img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .flex-item:hover {
@@ -130,8 +143,8 @@ main {
     background-color: rgba(255, 255, 255, 0.904);
     border-radius: 0px 0px 10px 10px;
     box-shadow: 3px 3px 10px rgba(160, 155, 155, 0.849);
-    width: 800px;
-    padding: 10px;   
+    max-width: 65ch;
+    padding: 30px 40px;   
     margin: auto;
     margin-top: 180px;
     text-align: justify;
@@ -147,7 +160,7 @@ h1 {
 }
 
 h2 {
-    width: 700px;
+    max-width: 65ch;
     font-family: 'Kaushan Script', serif;
     color: #09394D;
     padding: 10px;
@@ -159,11 +172,12 @@ h2 {
 p {    
     text-align: justify;
     color: #09394D;
-    font-size: 16px;
+    font-size: 1.125rem;
+    line-height: 1.6;
     text-indent: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 0pt;
+    margin-bottom: 0.5em;
     padding: 0pt;  
 }
 
@@ -179,7 +193,7 @@ div {
 }
 
 footer#rodape { 
-    width: 700px;
+    max-width: 65ch;
     padding: 0px;
     margin: auto;
     text-align: center;    
@@ -210,8 +224,36 @@ a:hover {
 }
 
 a.img {
-    height: 200px;
-    width: 200px;
+    display: block;
+    width: 120px;
+    height: 120px;
+}
+
+/* Seção de Trabalho */
+.trabalho-container {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #fafafa, #ffffff);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.trabalho-item {
+    padding: 10px;
+}
+
+.img-trabalho {
+    display: block;
+    width: 300px;
+    height: auto;
+}
+
+.img-trabalho img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 .info-familia a {
@@ -237,7 +279,7 @@ a.img {
 .artigo-data {
     font-style: italic;
     color: #666;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-indent: 0;
     margin-left: 10px;
     margin-bottom: 15px;
