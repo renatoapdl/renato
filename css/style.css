@@ -223,3 +223,41 @@ a.img {
     text-decoration: none;
 }
 
+/* Estilos para artigos */
+.artigo {
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #a7c7f1;
+}
+
+.artigo:last-child {
+    border-bottom: none;
+}
+
+.artigo-data {
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
+    text-indent: 0;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+
+.artigo-conteudo p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+.artigo-conteudo a {
+    color: #0d5c7e;
+    text-decoration: underline;
+}
+
+.artigo-conteudo a:hover {
+    color: #09394D;
+}
+
+#artigos h1 {
+    margin-bottom: 20px;
+}
+
