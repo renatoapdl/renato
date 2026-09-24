@@ -1,7 +1,7 @@
 @charset "UTF8";
 
 /* ============================================================
-   Renato Abreu — estilo GitHub dark
+   Renato Abreu — estilo dark
    ============================================================ */
 
 :root {
@@ -35,7 +35,7 @@ body {
     padding-top: 64px;
 }
 
-/* ---------- NAV (estilo GitHub) ---------- */
+/* ---------- NAV ---------- */
 nav {
     position: fixed;
     top: 0;

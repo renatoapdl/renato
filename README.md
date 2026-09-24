@@ -1,19 +1,19 @@
 # Portfólio Pessoal — Renato Abreu
 
-Site pessoal em tema escuro estilo GitHub/terminal apresentando minha trajetória de Engenheiro Eletricista na rede global IVS-NASA em transição para desenvolvimento de software e análise de dados.
+Site pessoal apresentando minha trajetória de Engenheiro Eletricista na rede global IVS-NASA em transição para desenvolvimento de software e análise de dados.
 
 **Link:** [https://renatoapdl.github.io/renato/](https://renatoapdl.github.io/renato/)
 
 ## Sobre o projeto
 
-Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética de terminal e tema dark inspirado no GitHub. Conteúdo:
+Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética de terminal e tema dark. Conteúdo:
 
-- **Home** — Terminal animado (`whoami`, `cat resumo.md`, `git log --oneline --carreira`...) com métricas reais do trabalho: 99.7% de disponibilidade, MTTR -35% e -40% de tempo manual.
+- **Home** — Terminal animado (`whoami`, `cat resumo.md`, `git log --oneline --carreira`...) com métricas reais do trabalho.
 - **Sobre mim** — Apresentação pessoal e profissional.
 - **Experiência** — Linha do tempo em estilo de código, com impacto mensurável em cada função.
 - **Habilidades** — Chips separando o que é **dominado** (verde) do que está **em aprendizado** (lilás).
 - **Projetos** — Trabalhos e experimentos selecionados.
-- **ROEN** — Página dedicada ao Rádio Observatório Espacial do Nordeste, onde trabalho, com o artigo da antena VGOS (primeira luz em 22/10/2025) e fonte do MIT Haystack.
+- **ROEN** — Página dedicada ao Rádio Observatório Espacial do Nordeste, onde trabalho.
 - **Artigos** — Textos e reflexões apresentados em caixas de leitura estilo terminal.
 - **Contato** — GitHub, LinkedIn, YouTube, Instagram, e-mail e localização.
 
@@ -26,7 +26,7 @@ Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética d
 ├── pages/
 │   └── roen.html       # ROEN e artigo da antena VGOS
 ├── css/
-│   └── style.css       # tema GitHub dark / terminal
+│   └── style.css       # tema dark / terminal
 └── assets/             # favicon, fotos e imagens
 ```
 
