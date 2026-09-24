@@ -2,75 +2,103 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/favicon2.ico" type="image/x-icon">
+    <meta name="description" content="Artigos de Renato Abreu — textos sobre tecnologia, IA e a carreira de quem desenvolve.">
     <title>Artigos | Renato Abreu</title>
+    <link rel="shortcut icon" href="assets/favicon2.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Renato Abreu</h1>
-        
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html#sobre">Sobre Mim</a>
-            <a href="index.html#redes">Redes</a>
-            <a href="artigos.html">Artigos</a>
-            <a href="index.html#family">Família</a>
-            <a href="index.html#musica">Música</a>
-            <a href="index.html#trabalho">Trabalho</a>
-        </nav>
-    </header>
 
-    <main>       
-        <div id="artigos">
-            <h1>Artigos</h1>
+    <!-- ===== NAV ===== -->
+    <nav>
+        <a class="nav-logo" href="index.html">
+            <svg height="30" width="30" viewBox="0 0 16 16" fill="#e6edf3" aria-hidden="true">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            <span>renatoapdl</span>
+        </a>
+        <div class="nav-links">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#sobre">Sobre</a>
+            <a href="index.html#experiencia">Experiência</a>
+            <a href="index.html#habilidades">Habilidades</a>
+            <a href="index.html#projetos">Projetos</a>
+            <a href="pages/roen.html">ROEN</a>
+            <a href="artigos.html" class="active">Artigos</a>
+            <a href="index.html#contato">Contato</a>
         </div>
+    </nav>
 
-        <article class="artigo">
-            <h2>Voce esta voando atras do aviao?</h2>
-            <p class="artigo-data">Setembro 2026</p>
-            
-            <div class="artigo-conteudo">
-                <p>Na era em que uma informacao da manha pode ser antiga a tarde, tenho medo que ao ler esse texto voce esteja olhando para um "assunto batido", mais um artigo entre milhares que falam sobre a revolucao que o uso da Inteligencia Artificial tem causado em nossos dias, principalmente na area de tecnologia. Mas vou me arriscar mesmo assim.</p>
+    <main class="wrap">
 
-                <p>Tenho visto uma enxurrada de opinioes sobre o assunto. Do ponto de vista daqueles que trabalham diretamente com tecnologia, basicamente vejo dois grupos: aqueles que mergulharam de cabeca no uso da IA e apenas "curtem o momento", e aqueles que falam de uma forma ate meio saudosista da "epoca em que se programava na unha". Acho esse termo engramcado porque me lembra muito antigos profissionais que olhavam para ferramentas modernas e diziam: "Isso ai e coisa de gente fresca! Bom era no meu tempo!"</p>
+        <section class="page-hero">
+            <p class="eyebrow">$ ls ~/artigos</p>
+            <h1>Artigos</h1>
+            <p>Textos sobre tecnologia, IA e a visão de quem está construindo a carreira de dev.</p>
+        </section>
 
-                <p>Acho curioso que aqueles que sempre foram os inovadores — sempre vistos como sinonimo de modernidade — de repente, tornaram-se o seu Joao, o pedreiro que olha para um servente fazendo concreto na betoneira e fala: "Hoje em dia e muito facil! Bom era no meu tempo que a gente tinha que virar a massa na mao e bater a laje <em>na unha</em>." Mas por que isso? Sera que e inseguranca? Medo do desconhecido? So implicancia boba? Ou aquela velha vontade de dizer: "Eu sou raiz, nao sou nutela"?</p>
+        <section id="lista">
+            <div class="terminal article-terminal">
+                <div class="terminal-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">reader@renato: ~/artigos</span>
+                </div>
+                <div class="terminal-body article-body">
+                    <div class="cmd-line"><span class="t-prompt">$</span><span class="t-cmd">cat voando-atras-do-aviao.md</span></div>
 
-                <p>Bem, tive um insight sobre isso assistindo a minha serie favorita dos ultimos meses e criei uma possivel tese pra questao que queria compartilhar aqui. Na verdade, nao e bem uma serie daquelas que voce encontra na Netflix ou Prime Video.</p>
+                    <article class="artigo">
+                        <h1>Você está voando atrás do avião?</h1>
+                        <p class="artigo-data">Setembro 2026 · 8 min de leitura</p>
 
-                <p>No ultimo sabado, dia 12 de setembro, pousou no CATULEVE — aerodromo na Regiao Metropolitana de Fortaleza — o Comandante Alexandre Frota, o Alex Bacana, pilotando o seu RV10, um aviao experimental monomotor de matricula PT-ZRQ (Papa-Tango-Zulu-Romeo-Quebec). Ele chegava depois de dar a volta ao mundo em voo solo, passando pelos cinco continentes, sendo o primeiro brasileiro a completar uma volta ao mundo solo em aeronave monomotor experimental. Recomendo fortemente conhecer o trabalho dele no <a href="https://frotaspelomundo.framer.website/about" target="_blank">site oficial do projeto</a>, no <a href="https://www.instagram.com/frotaspelomundo/" target="_blank">Instagram @frotaspelomundo</a> e no <a href="https://www.youtube.com/@frotaspelomundo" target="_blank">canal do YouTube Frotas Pelo Mundo</a>.</p>
+                        <div class="artigo-conteudo">
+                            <p>Na era em que uma informação da manhã pode ser antiga a tarde, tenho medo que ao ler esse texto você esteja olhando para um "assunto batido". Apenas mais um artigo entre milhares que falam sobre a revolução que o uso da Inteligência Artificial tem causado em nossos dias, principalmente na área de tecnologia. Mas vou me arriscar mesmo assim.</p>
 
-                <p>Mas o que tem a ver um piloto de aviao com um profissional de tecnologia e IA? Que misturada e essa? Pois bem, um episodio que me marcou bastante foi quando o Comandante Bacana fazia uma das travessias mais desafiadoras de sua aventura, em algum lugar entre a Africa e a Asia, e mencionou que, pela primeira vez na viagem, estava se sentindo "atras do aviao". Ele explicou o que significa isso: Em suas viagens, ele sempre planeja cada perna, cada voo, cada decolagem, cada pouso, cada reabastecimento — tudo com muita antecedencia. Quando algo acontece no ar, ele ja previu e ja pensou em possiveis solucoes ha muito tempo. Isso ele definiu como estar "a frente do aviao". Nada do que o aviao faz e novo para ele; mesmo os desvios de rota que parecem inesperados ja estavam no seu radar. E quando ele se sente atras do aviao, quer dizer que nao teve tempo de entender tudo que iria acontecer — ele so esta ligando o aviao, voando e descobrindo o que vem pela frente, reagindo a tudo. Ele nao desistiu da volta ao mundo ao notar isso, ele parou, voltou a estudar e se planejar melhor e so entao voltou a voar, de novo "a frente do aviao".</p>
+                            <p>Tenho visto uma enxurrada de opiniões sobre o assunto. Do ponto de vista daqueles que trabalham diretamente com tecnologia, basicamente vejo dois grupos: aqueles que mergulharam de cabeça no uso da IA e apenas "curtem o momento", e aqueles que falam de uma forma até meio saudosista da "época em que se programava na unha". Acho esse termo engraçado porque me lembra muito antigos profissionais que olhavam para ferramentas modernas e diziam: "Isso aí é coisa de gente fresca! Bom era no meu tempo!"</p>
 
-                <p>Se voce ja leu o artigo <a href="https://phrack.org/issues/7/3/" target="_blank">"The Conscience of a Hacker"</a> de Loyd Blankenship — um hacker do grupo Legion of Doom que usava o codinome "The Mentor" —, escrito em 8 de janeiro de 1986 e publicado na revista underground Phrack, vai se lembrar de quando ele fala que o que o encantou no computador foi que ele faz exatamente o que o "comandante" quer fazer: Se ele errar, o computador erra; se ele resolver um problema, o computador tambem resolve. Esse texto, que ficou conhecido como "O Manifesto Hacker", define perfeitamente o sentimento daqueles que sao inconformados em apenas olhar para o mundo como ele e aceitar, mas que sempre buscam uma forma de fazer as coisas de um jeito mais facil, rapido e inteligente.</p>
+                            <p>Acho curioso que aqueles que sempre foram os inovadores — sempre vistos como sinônimo de modernidade — de repente, tornaram-se o seu João, o pedreiro que olha para um servente fazendo concreto na betoneira e fala: "Hoje em dia é muito fácil! Bom era no meu tempo que a gente tinha que virar a massa na mão e bater a laje <em>na unha</em>." Mas por que isso? Será que é insegurança? Medo do desconhecido? Só implicância boba? Ou aquela velha vontade de dizer: "Eu sou raiz, não sou nutella"?</p>
 
-                <p>Entao, a impressao que eu fico e que neste momento muitos desenvolvedores e profissionais de tecnologia em geral estao se sentindo como se, pela primeira vez na vida, estivessem voando "atras do aviao". Pela primeira vez, voce sabe que esta voando, mas ainda nao entendeu bem por que. Isso e um problema real, porque se a IA comecar a se comportar de forma estranha, voce vai ter que descobrir o que esta acontecendo e tentar corrigir a rota no ar. Nao estou falando da IA "cuspir" um codigo que voce nao entende — sei que muitos que estao lendo isso sao muito mais capazes do que qualquer IA para olhar um codigo e saber por que ele nao esta funcionando, ou mesmo entender que aquela solucao nao e a melhor para determinado problema. Estou falando de nao saber como e por que a IA respondeu daquela forma, como ela "pensa", o que podemos criar enquanto entregamos tantas informacoes (contexto) pro modelo, o que fazer quando acabarem os tokens.</p>
+                            <p>Bem, tive um insight sobre isso assistindo a minha série favorita dos últimos meses e criei uma possível tese pra questão que queria compartilhar aqui. Na verdade, não é bem uma série daquelas que você encontra na Netflix ou Prime Video.</p>
 
-                <p>Mas aqui esta o ponto: a solucao nao e rejeitar a ferramenta nem se render a ela. A resposta esta em resgatar aquele velho espirito hacker que o Mentor descreveu — a curiosidade impaciente, a vontade de entender como as coisas funcionam por baixo do capo. Quando o Comandante Bacana se sente "atras do aviao", ele nao continua voando no escuro. Ele pousa, estuda a rota, planeja cada detalhe e decola novamente sabendo exatamente para onde vai. E isso que devemos fazer com a IA.</p>
+                            <p>No último sábado, dia 12 de setembro, pousou no CATULEVE — aeródromo na Região Metropolitana de Fortaleza — o Comandante Alexandre Frota, o Alex Bacana, pilotando o seu RV10, um avião experimental monomotor de matrícula PT-ZRQ (Papa-Tango-Zulu-Romeo-Quebec). Ele chegava depois de dar a volta ao mundo em voo solo, passando pelos cinco continentes, sendo o primeiro brasileiro a completar uma volta ao mundo solo em aeronave monomotor experimental. Recomendo fortemente conhecer o trabalho dele no <a href="https://frotaspelomundo.framer.website/about" target="_blank">site oficial do projeto</a>, no <a href="https://www.instagram.com/frotaspelomundo/" target="_blank">Instagram @frotaspelomundo</a> e no <a href="https://www.youtube.com/@frotaspelomundo" target="_blank">canal do YouTube Frotas Pelo Mundo</a>.</p>
 
-                <p>Nao se trata de aceitar cegamente o que a ferramenta nos entrega como se fossemos meros usuarios — aquilo que eu chamo de "mente de usuario": alguem que apenas consome o resultado sem questionar o processo. Seria como um piloto que decola sem entender os instrumentos, confiando apenas no piloto automatico. Em algum momento, quando a turbulencia vier, ele nao saberah nem onde esta o botao de emergencia.</p>
+                            <p>Mas o que tem a ver um piloto de avião com um profissional de tecnologia e IA? Que misturada é essa? Pois bem, um episódio que me marcou bastante foi quando o Comandante Bacana fazia uma das travessias mais desafiadoras de sua aventura, em algum lugar entre a África e a Ásia, e mencionou que, pela primeira vez na viagem, estava se sentindo "atrás do avião". Ele explicou o que significa isso: em suas viagens, ele sempre planeja cada perna, cada voo, cada decolagem, cada pouso, cada reabastecimento — tudo com muita antecedência. Quando algo acontece no ar, ele já previu e já pensou em possíveis soluções há muito tempo. Isso ele definiu como estar "a frente do avião". Nada do que o avião faz é novo para ele; mesmo os desvios de rota que parecem inesperados já estavam no seu radar. E quando ele se sente atrás do avião, quer dizer que não teve tempo de entender tudo que iria acontecer — ele só está ligando o avião, voando e descobrindo o que vem pela frente, reagindo a tudo. Ele não desistiu da volta ao mundo ao notar isso, ele parou, voltou a estudar e se planejar melhor e só então voltou a voar, de novo "a frente do avião".</p>
 
-                <p>O verdadeiro caminho e aquele que exige coragem: se jogar no problema novo, estudar o modelo, entender como os prompts funcionam, experimentar, errar, ajustar e, acima de tudo, nao ter medo de parecer ridiculo ao perguntar "Como isso funciona?". Porque no final das contas, a tecnologia — seja um aviao, um computador ou uma rede neural — sempre respeitara quem a compreende de verdade. E quando dominarmos a IA com a mesma competencia que dominamos qualquer outra ferramenta, nao estaremos mais voando atras do aviao. Estaremos no comando, planejando a rota, prontos para qualquer turbulencia.</p>
+                            <p>Se você já leu o artigo <a href="https://phrack.org/issues/7/3/" target="_blank">"The Conscience of a Hacker"</a> de Loyd Blankenship — um hacker do grupo Legion of Doom que usava o codinome "The Mentor" —, escrito em 8 de janeiro de 1986 e publicado na revista underground Phrack, vai se lembrar de quando ele fala que o que o encantou no computador foi que ele faz exatamente o que o "comandante" quer fazer: se ele errar, o computador erra; se ele resolver um problema, o computador também resolve. Esse texto, que ficou conhecido como "O Manifesto Hacker", define perfeitamente o sentimento daqueles que são inconformados em apenas olhar para o mundo como ele é e aceitar, mas que sempre buscam uma forma de fazer as coisas de um jeito mais fácil, rápido e inteligente.</p>
+
+                            <p>Então, a impressão que eu fico é que neste momento muitos desenvolvedores e profissionais de tecnologia em geral estão se sentindo como se, pela primeira vez na vida, estivessem voando "atrás do avião". Pela primeira vez, você sabe que está voando, mas ainda não entendeu bem por quê. Isso é um problema real, porque se a IA começar a se comportar de forma estranha, você vai ter que descobrir o que está acontecendo e tentar corrigir a rota no ar. Não estou falando da IA "cuspir" um código que você não entende — sei que muitos que estão lendo isso são muito mais capazes do que qualquer IA para olhar um código e saber por que ele não está funcionando, ou mesmo entender que aquela solução não é a melhor para determinado problema. Estou falando de não saber como e por que a IA respondeu daquela forma, como ela "pensa", o que podemos criar enquanto entregamos tantas informações (contexto) pro modelo, o que fazer quando acabarem os tokens.</p>
+
+                            <p>Mas aqui está o ponto: a solução não é rejeitar a ferramenta nem se render a ela. A resposta está em resgatar aquele velho espírito hacker que o Mentor descreveu — a curiosidade impaciente, a vontade de entender como as coisas funcionam por baixo do capô. Quando o Comandante Bacana se sente "atrás do avião", ele não continua voando no escuro. Ele pousa, estuda a rota, planeja cada detalhe e decola novamente sabendo exatamente para onde vai. E é isso que devemos fazer com a IA.</p>
+
+                            <p>Não se trata de aceitar cegamente o que a ferramenta nos entrega como se fôssemos meros usuários — aquilo que eu chamo de "mente de usuário": alguém que apenas consome o resultado sem questionar o processo. Seria como um piloto que decola sem entender os instrumentos, confiando apenas no piloto automático. Em algum momento, quando a turbulência vier, ele não saberá nem onde está o botão de emergência.</p>
+
+                            <p>O verdadeiro caminho é aquele que exige coragem: se jogar no problema novo, estudar o modelo, entender como os prompts funcionam, experimentar, errar, ajustar e, acima de tudo, não ter medo de parecer ridículo ao perguntar "Como isso funciona?". Porque no final das contas, a tecnologia — seja um avião, um computador ou uma rede neural — sempre respeitará quem a compreende de verdade. E quando dominarmos a IA com a mesma competência que dominamos qualquer outra ferramenta, não estaremos mais voando atrás do avião. Estaremos no comando, planejando a rota, prontos para qualquer turbulência.</p>
+                        </div>
+                    </article>
+
+                    <div class="cmd-line"><span class="t-prompt">$</span><span class="t-cmd">echo "fim da leitura"</span></div>
+                </div>
             </div>
-        </article>
+        </section>
+
     </main>
 
-    <footer id="rodape">
-        <p>Copyright 2021 - by Renato Abreu<br/></p>
-        <p>
-            <a href="http://facebook.com/renato.aopedaletra" target="_blank">
-                Facebook
-            </a> | 
-            <a href="http://twitter.com/renato_apdl" target="_blank">
-                Twitter
-            </a> | 
-            <a href="https://github.com/renatoapdl" target="_blank">
-                GitHub
-            </a>
-        </p>
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="wrap">
+            <p>© <span id="year"></span> · Renato Abreu · Engenheiro Eletricista &amp; Dev Python</p>
+            <div>
+                <a href="index.html#home">Home</a>
+                <a href="pages/roen.html">ROEN</a>
+                <a href="https://github.com/renatoapdl" target="_blank" rel="external">GitHub</a>
+            </div>
+        </div>
     </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>

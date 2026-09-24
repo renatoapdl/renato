@@ -2,154 +2,434 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Renato Abreu — Engenheiro Eletricista e Desenvolvedor Python. Automação, APIs e confiabilidade no Rádio Observatório Espacial do Nordeste (rede IVS-NASA). Em transição para dados e web.">
+    <title>Renato Abreu · Engenheiro &amp; Desenvolvedor Python</title>
     <link rel="shortcut icon" href="assets/favicon2.ico" type="image/x-icon">
-    <title>Minha Página | Renato Abreu</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Renato Abreu</h1>
-        
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="index.html#sobre">Sobre Mim</a>
-            <a href="index.html#redes">Redes</a>
+
+    <!-- ===== NAV ===== -->
+    <nav>
+        <a class="nav-logo" href="#home">
+            <svg height="30" width="30" viewBox="0 0 16 16" fill="#e6edf3" aria-hidden="true">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+            <span>renatoapdl</span>
+        </a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#experiencia">Experiência</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#roen">ROEN</a>
             <a href="artigos.html">Artigos</a>
-            <a href="#family">Família</a>
-            <a href="#musica">Música</a>
-            <a href="#trabalho">Trabalho</a>
-        </nav>
-    </header>
-
-    <main>       
-        <div id="home">
-            <h1>Quem sou eu</h1>
+            <a href="#contato">Contato</a>
         </div>
-        <div id="sobre">
-            <h2>Sobre mim</h2>
-            <div class="flex-container">
-                <div>           
-                    <img src="assets/foto.png" alt="Foto de perfil de Renato Abreu">
-                </div>
-                <div>
+    </nav>
 
-                    <p>
-                        Meu nome é Renato Abreu, sou técnico em Eletrotécnica desde 2011 e formado em Engenharia Elétrica desde 2022. 
-                    </p>
+    <main class="wrap">
 
-
-                    <p>
-                        Trabalho no Rádio Observatório Espacial do Nordeste desde 2012. Sou técnico de manutenção.
-                    </p>
-
-
-                    <p>
-                        Responsável pela manutenção e operação do Observatório trabalhando com diversos sistemas, desde softwares até engrenagens pesadas.
-                    </p>
-
+        <!-- ===== HERO + TERMINAL ===== -->
+        <section id="home" class="hero">
+            <div>
+                <p class="hero-eyebrow">$ reader@renato:~$ whoami</p>
+                <h1>Renato Abreu<span class="dot">.</span></h1>
+                <p>
+                    Engenheiro Eletricista com 14+ anos em infraestrutura crítica (rede global IVS-NASA).
+                    Desenvolvo <strong>automação em Python</strong> no trabalho e estou em transição
+                    ativa para desenvolvimento de software e análise de dados.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#contato">Falar comigo</a>
+                    <a class="btn btn-outline" href="https://github.com/renatoapdl" target="_blank" rel="external">GitHub</a>
                 </div>
             </div>
-        </div>
-        <div id="family"></div> <! – Apenas para localizar Família –>
 
-        <div id="redes">
-            <h2>Como falar comigo?</h2>
-            <ul type="none">
-            
-                    <li><img src="assets/images/social/youtube.png" alt="youtube">&nbsp&nbsp<a href="https://www.youtube.com/channel/UCpCICv54MkSOQhlQCPh8E4A" target="_blank" rel="external">YouTube</a> - Acesse meu canal do YouTube</li>
-                    <li><img src="assets/images/social/insta.png" alt="instagram">&nbsp&nbsp<a href="https://www.instagram.com/renato.apdl/" target="_blank" rel="external">Instagram</a> - Me siga no Instagram</li>
-                    <li><img src="assets/images/social/linkedin.png" alt="linkedin">&nbsp&nbsp<a href="https://www.linkedin.com/in/renatoabreueletrotecnico/" target="_blank" rel="external">LinkedIn</a> - Me adicione no LinkedIn</li>
-                    <li><img src="assets/images/social/twitter.png" alt="twitter">&nbsp&nbsp<a href="https://twitter.com/renato_apdl" target="_blank" rel="external">Twitter</a> - Me siga no Twitter</li>
-                    <li><img src="assets/images/social/face.png" alt="facebook">&nbsp&nbsp<a href="https://www.facebook.com/renato.aopedaletra" target="_blank" rel="external">Facebook</a> - Me adicione no Facebook</li>
-            
-            
+            <div class="terminal">
+                <div class="terminal-bar">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">reader@renato: ~/carreira</span>
+                </div>
+                <div class="terminal-body" id="terminalBody"></div>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE ===== -->
+        <section id="sobre">
+            <div class="section-header">
+                <span>$</span>
+                <h2>Sobre mim</h2>
+            </div>
+            <div class="card">
+                <div class="sobre-grid">
+                    <img class="avatar" src="assets/foto.png" alt="Foto de Renato Abreu">
+                    <div>
+                        <p>
+                            Engenheiro Eletricista (UNINTER, 2022) e Técnico em Eletrotécnica (CEPEP, 2011),
+                            com mais de <strong>14 anos</strong> de experiência em infraestrutura crítica no
+                            <strong>Rádio Observatório Espacial do Nordeste</strong> (Mackenzie/NASA, rede IVS).
+                        </p>
+                        <p>
+                            Nessa jornada eu evoluí da engenharia física para a lógica de programação: no
+                            trabalho diário uso <strong>Python</strong> para automação de fluxos de dados,
+                            consumo de APIs e telemetria — sempre com o rigor de quem responde pela
+                            confiabilidade de um sistema científico operando 24/7.
+                        </p>
+                        <p>
+                            Estou em transição para o ecossistema de dados e desenvolvimento web. Tenho
+                            <strong>SQL, Power BI, Pandas e JavaScript</strong> em aprendizado ativo
+                            (Google Data Analytics e Power BI Data Analyst em andamento), traduzindo os
+                            indicadores da indústria (MTTR, SLA, OEE) para o ciclo de vida de software e
+                            análise de dados.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats">
+                <div class="stat"><span class="stat-num">14+</span><span class="stat-label">anos em infraestrutura crítica</span></div>
+                <div class="stat"><span class="stat-num">99.7%</span><span class="stat-label">de disponibilidade operacional</span></div>
+                <div class="stat"><span class="stat-num">-35%</span><span class="stat-label">de MTTR com supervisão remota</span></div>
+                <div class="stat"><span class="stat-num">-40%</span><span class="stat-label">de tempo manual com Python</span></div>
+            </div>
+        </section>
+
+        <!-- ===== EXPERIÊNCIA ===== -->
+        <section id="experiencia">
+            <div class="section-header">
+                <span>$</span>
+                <h2>Experiência</h2>
+            </div>
+
+            <div class="timeline-item">
+                <p class="tl-year"><span class="tl-prompt">&gt;</span><span class="period">2012 · presente</span></p>
+                <div class="tl-content">
+                    <h3>Mackenzie — Rádio Observatório Espacial do NE</h3>
+                    <p class="role">Técnico de Operações e Manutenção · rede global IVS-NASA</p>
+                    <p>Confiabilidade de sistemas de radioastronomia mantendo <strong>99.7% de disponibilidade</strong>
+                        operacional. Implementação de dashboards de SLA com <strong>redução de 35% no MTTR</strong>,
+                        automação em Python para telemetria e coleta de dados VLBI, e geração de relatórios
+                        técnicos em inglês para a NASA.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <p class="tl-year"><span class="tl-prompt">&gt;</span><span class="period">2022</span></p>
+                <div class="tl-content">
+                    <h3>Bacharelado em Engenharia Elétrica e Eletrônica</h3>
+                    <p class="role">UNINTER</p>
+                    <p>Graduação concluída — base de projeto, sistemas de potência e gestão que sustentam a
+                        transição para dados e desenvolvimento de software.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <p class="tl-year"><span class="tl-prompt">&gt;</span><span class="period">2011 · 2012</span></p>
+                <div class="tl-content">
+                    <h3>Haco Etiquetas do Nordeste</h3>
+                    <p class="role">Técnico Eletrotécnico</p>
+                    <p>Manutenção preventiva e corretiva em maquinário têxtil de alta performance e automação
+                        industrial, reduzindo o <strong>downtime em 20%</strong>.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== HABILIDADES ===== -->
+        <section id="habilidades">
+            <div class="section-header">
+                <span>$</span>
+                <h2>Habilidades</h2>
+            </div>
+
+            <p class="skills-note"><span class="mk mk-ok">Dominado</span> (uso no dia a dia) &nbsp;·&nbsp;
+                <span class="mk mk-learn">Em aprendizado</span> (em curso / praticando)</p>
+
+            <div class="chips">
+                <span class="chip">Python</span>
+                <span class="chip">Automação com Python</span>
+                <span class="chip">APIs REST</span>
+                <span class="chip">Linux &amp; Terminal</span>
+                <span class="chip">Git &amp; GitHub</span>
+                <span class="chip">HTML &amp; CSS</span>
+                <span class="chip">IoT &amp; Indústria 4.0</span>
+                <span class="chip">SCADA &amp; Telemetria</span>
+                <span class="chip">Confiabilidade &amp; KPIs</span>
+            </div>
+
+            <div class="skill-groups">
+                <div class="skill-group">
+                    <h4>Desenvolvimento (dominado)</h4>
+                    <ul>
+                        <li>Python — scripts e automação em produção</li>
+                        <li>Consumo e integração de APIs REST (JSON)</li>
+                        <li>Git / GitHub e versionamento</li>
+                        <li>Linux e linha de comando</li>
+                        <li>HTML5 / CSS3 — páginas e dashboards</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h4>Engenharia &amp; Confiabilidade</h4>
+                    <ul>
+                        <li>Gestão de Ativos</li>
+                        <li>Manutenção Preditiva (PCM) e Planejada (PCP)</li>
+                        <li>Confiabilidade e análise de falhas</li>
+                        <li>KPIs, SLAs e OEE</li>
+                        <li>Liderança de equipes multidisciplinares</li>
+                    </ul>
+                </div>
+                <div class="skill-group">
+                    <h4>Infraestrutura &amp; IoT</h4>
+                    <ul>
+                        <li>Sistemas supervisórios (SCADA)</li>
+                        <li>Telemetria e monitoramento remoto</li>
+                        <li>IoT e automação industrial 4.0</li>
+                        <li>Redes e cabeamento estruturado</li>
+                        <li>Motores de alta precisão</li>
+                    </ul>
+                </div>
+                <div class="skill-group learning">
+                    <h4>Em aprendizado</h4>
+                    <ul>
+                        <li>SQL e modelagem de dados</li>
+                        <li>Power BI — dashboards e DAX</li>
+                        <li>Pandas e análise de dados</li>
+                        <li>JavaScript / front-end</li>
+                        <li>Streamlit e FastAPI</li>
+                        <li>Google Data Analytics (em curso)</li>
+                        <li>Microsoft Power BI Data Analyst (em curso)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PROJETOS ===== -->
+        <section id="projetos">
+            <div class="section-header">
+                <span>$</span>
+                <h2>Projetos</h2>
+            </div>
+
+            <div class="project-grid">
+                <div class="card project">
+                    <div class="project-top">
+                        <svg height="18" width="18" viewBox="0 0 16 16" fill="#9198a1">
+                            <path d="M4.708 5.578L2.061 8.224l2.647 2.646-.708.708L.646 8.93a.5.5 0 0 1 0-.708l2.354-2.354.708.708zm4.585 0l-.708-.708 2.354-2.354a.5.5 0 0 1 .708 0l2.352 2.352.708.708-2.647 2.646-.708-.708 2.647-2.646-2.647-2.646zM8 4.5l1.5 7h-3L8 4.5z"/>
+                        </svg>
+                        <a class="project-name" href="https://github.com/renatoapdl/BAIXADOR-X" target="_blank" rel="external">BAIXADOR-X</a>
+                        <span class="project-badge">Python</span>
+                    </div>
+                    <p>Ferramenta desktop para download de vídeos do X/Twitter em MP4, com interface gráfica
+                        moderna e seleção de pasta de destino.</p>
+                    <div class="project-meta">yt-dlp · CustomTkinter</div>
+                    <a class="project-link" href="https://github.com/renatoapdl/BAIXADOR-X" target="_blank" rel="external">github.com/renatoapdl/BAIXADOR-X</a>
+                </div>
+
+                <div class="card project">
+                    <div class="project-top">
+                        <svg height="18" width="18" viewBox="0 0 16 16" fill="#9198a1">
+                            <path d="M4.708 5.578L2.061 8.224l2.647 2.646-.708.708L.646 8.93a.5.5 0 0 1 0-.708l2.354-2.354.708.708zm4.585 0l-.708-.708 2.354-2.354a.5.5 0 0 1 .708 0l2.352 2.352.708.708-2.647 2.646-.708-.708 2.647-2.646-2.647-2.646zM8 4.5l1.5 7h-3L8 4.5z"/>
+                        </svg>
+                        <a class="project-name" href="https://github.com/renatoapdl/clima-eusebio" target="_blank" rel="external">Clima Eusébio</a>
+                        <span class="project-badge">Python</span>
+                    </div>
+                    <p>Aplicação desktop com clima em tempo real via API REST, atualização automática a cada
+                        5 minutos e manipulação de dados JSON.</p>
+                    <div class="project-meta">Tkinter · API wttr.in</div>
+                    <a class="project-link" href="https://github.com/renatoapdl/clima-eusebio" target="_blank" rel="external">github.com/renatoapdl/clima-eusebio</a>
+                </div>
+
+                <div class="card project">
+                    <div class="project-top">
+                        <svg height="18" width="18" viewBox="0 0 16 16" fill="#9198a1">
+                            <path d="M4.708 5.578L2.061 8.224l2.647 2.646-.708.708L.646 8.93a.5.5 0 0 1 0-.708l2.354-2.354.708.708zm4.585 0l-.708-.708 2.354-2.354a.5.5 0 0 1 .708 0l2.352 2.352.708.708-2.647 2.646-.708-.708 2.647-2.646-2.647-2.646zM8 4.5l1.5 7h-3L8 4.5z"/>
+                        </svg>
+                        <a class="project-name" href="https://github.com/renatoapdl/fgo-data-update" target="_blank" rel="external">FGO Data Update</a>
+                        <span class="project-badge">Python</span>
+                    </div>
+                    <p>Automação de atualização de dados de discos VLBI em Fortaleza, integrada aos sistemas
+                        de radioastronomia do Mackenzie.</p>
+                    <div class="project-meta">NASA · VLBI · automação</div>
+                    <a class="project-link" href="https://github.com/renatoapdl/fgo-data-update" target="_blank" rel="external">github.com/renatoapdl/fgo-data-update</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ROEN ===== -->
+        <section id="roen">
+            <div class="section-header">
+                <span>$</span>
+                <h2>Onde eu trabalho</h2>
+            </div>
+            <div class="card roen">
+                <a class="roen-img" href="pages/roen.html">
+                    <img src="assets/images/pages/antena-new.jpeg" alt="Antena do Rádio Observatório Espacial do Nordeste">
+                </a>
+                <div>
+                    <h3>Rádio Observatório Espacial do Nordeste</h3>
+                    <p class="role">Mackenzie · rede global IVS-NASA</p>
+                    <p>
+                        Sou responsável pela confiabilidade e disponibilidade operacional de sistemas de
+                        radioastronomia vinculados à rede global IVS-NASA — de motores de alta precisão a
+                        telemetria, sempre com foco em manter o observatório operando com o padrão de
+                        qualidade exigido pela NASA.
+                    </p>
+                    <div class="badge-row">
+                        <span class="badge">desde 2012</span>
+                        <span class="badge blue">99.7% disponibilidade</span>
+                        <span class="badge">IVS · NASA</span>
+                    </div>
+                    <p class="badge-row">
+                        <a class="btn btn-outline" href="pages/roen.html" style="padding:8px 14px;">Sobre o observatório →</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTATO ===== -->
+        <section id="contato">
+            <div class="section-header">
+                <span>$</span>
+                <h2>Contato</h2>
+            </div>
+
+            <ul class="social-list">
+                <li>
+                    <a href="https://github.com/renatoapdl" target="_blank" rel="external">
+                        <svg height="22" width="22" viewBox="0 0 16 16" fill="#e6edf3">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                        </svg>
+                        GitHub
+                        <span class="handle">github.com/renatoapdl</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/renatoabreuengenharia/" target="_blank" rel="external">
+                        <img src="assets/images/social/linkedin.png" alt="LinkedIn">
+                        LinkedIn
+                        <span class="handle">/in/renatoabreuengenharia</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCpCICv54MkSOQhlQCPh8E4A" target="_blank" rel="external">
+                        <img src="assets/images/social/youtube.png" alt="YouTube">
+                        YouTube
+                        <span class="handle">canal YouTube</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/renato.apdl/" target="_blank" rel="external">
+                        <img src="assets/images/social/insta.png" alt="Instagram">
+                        Instagram
+                        <span class="handle">@renato.apdl</span>
+                    </a>
+                </li>
             </ul>
 
-            <p>E-mail: renatoaopedaletra@gmail.com</p>
-        </div>
-        <div id="familia">
-            <h1>Família</h1>
-        </div>
-        <div>
-            <h2>Conheça minha família</h2>
-            <div class="flex-container">
-                <div>           
-                    <img src="assets/images/pages/familia.png" alt="Foto da familia de Renato Abreu">
-                </div>
-                <div class="info-familia">
+            <p class="email-note">
+                E-mail: <a href="mailto:renato.apdl@protonmail.com">renato.apdl@protonmail.com</a>
+                &nbsp;·&nbsp; 📞 (85) 98677-9537 &nbsp;·&nbsp; 📍 Eusébio, CE
+            </p>
+        </section>
 
-                    <p>
-                        Sou casado com Vanesca Rodrigues desde 2007. Casamos no dia 13 de Outubro.
-                    </p>
-
-                    <div id="musica"></div><! – Apenas para localizar Bandas –>
-
-                    <p>
-                        Temos uma linda filha, Maria Eduarda, que todos chamam de Duda. Ela nasceu em 2013 prematura, com 6 meses de gestação. Ficou 3 meses na UTI neonatal e veio pra casa em março de 2014. Ela nasceu no dia 20 de Dezembro de 2013.
-                    </p>
-
-                </div>
-                
-            </div>
-        </div>
-        
-        <h1>Descubra meus gostos musicais</h1>
-
-        <h2>Bandas que eu curto</h2>
-
-        <div id="bandas" class="flex-container">
-
-            <div class="flex-item"> 
-                        <a class="img" href="pages/forfun.html"><img src="assets/images/bandas/forfun.jpg" alt="img forfun"></a>
-            </div>
-            <div class="flex-item">    
-                        <a class="img" href="pages/blink.html"><img src="assets/images/bandas/Blink-182.jpg" alt="img Blink-182"></a>
-            </div>  
-
-            <div class="flex-item">
-                        <a class="img" href="pages/cpm22.html"><img src="assets/images/bandas/cpm22.jpg" alt="img cpm22"></a>
-            </div> 
-            
-            <div id="trabalho"></div><! – Apenas para localizar Trabalho –>
-
-            <div class="flex-item">
-
-                        <a class="img" href="pages/dibob.html"><img src="assets/images/bandas/dibob.jpg" alt="img dibob"></a>
-            </div>
-            
-        </div>
-
-        <div class="mapa">
-            <h1>Trabalho</h1>
-            
-            <h2>Rádio Observatório Espacial do Nordeste</h2>
-           
-            <div class="trabalho-container">
-
-                <div class="trabalho-item"> 
-                            <a class="img-trabalho" href="pages/roen.html"><img src="assets/images/pages/roen.png" alt="img ROEN"></a>
-                </div>
-
-        </div>
     </main>
 
-
-    <footer id="rodape">
-        <p>Copyright 2021 - by Renato Abreu<br/></p>
-        <p>
-            <a href="http://facebook.com/renato.aopedaletra" target="_blank">
-                Facebook
-            </a> | 
-            <a href="http://twitter.com/renato_apdl" target="_blank">
-                Twitter
-            </a> | 
-            <a href="https://github.com/renatoapdl" target="_blank">
-                GitHub
-            </a>
-        </p>
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="wrap">
+            <p>© <span id="year"></span> · Renato Abreu · Engenheiro Eletricista &amp; Dev Python</p>
+            <div>
+                <a href="#home">Home</a>
+                <a href="artigos.html">Artigos</a>
+                <a href="pages/roen.html">ROEN</a>
+                <a href="https://github.com/renatoapdl" target="_blank" rel="external">GitHub</a>
+            </div>
+        </div>
     </footer>
-</body>
 
+    <script>
+        const lines = [
+            { cmd: "whoami" },
+            { out: "renato-apdl · engenheiro eletricista · dev python (transição p/ dados)" },
+            { cmd: "cat resumo.md" },
+            { out: "14+ anos em infraestrutura crítica (rede IVS-NASA)" },
+            { out: "99.7% de disponibilidade operacional", warn: true },
+            { cmd: "python3 scripts/telemetria.py --auto" },
+            { out: "Telemetria processada · -40% de tempo manual", ok: true },
+            { cmd: "ssh roen --mission operacao" },
+            { out: "Conectado ao Rádio Observatório Espacial do NE" },
+            { out: "Função: técnico de operações e manutenção · desde 2012" },
+            { cmd: "git log --oneline --carreira" },
+            { out: "feat: automação python p/ dados da NASA" },
+            { out: "feat: dashboards de confiabilidade (MTTR -35%)" },
+            { out: "wip: sql · power bi · análise de dados (em curso)", warn: true },
+            { out: "em produção: python + APIs · próx: web dev", ok: true },
+        ];
+
+        const body = document.getElementById("terminalBody");
+
+        function typeLine(el, text, cls, prompt, after) {
+            el.classList.add("t-line");
+            if (prompt) {
+                const p = document.createElement("span");
+                p.className = "t-prompt";
+                p.textContent = "$";
+                el.appendChild(p);
+            }
+            const span = document.createElement("span");
+            span.className = cls;
+            span.textContent = "";
+            el.appendChild(span);
+            const cursor = document.createElement("span");
+            cursor.className = "cursor";
+            el.appendChild(cursor);
+
+            let i = 0;
+            const typing = setInterval(() => {
+                span.textContent += text[i++];
+                if (i >= text.length) {
+                    clearInterval(typing);
+                    cursor.remove();
+                    after();
+                }
+            }, 18);
+        }
+
+        function runScript(index) {
+            if (index >= lines.length) {
+                const last = document.createElement("div");
+                last.className = "t-line cursor";
+                const p = document.createElement("span");
+                p.className = "t-prompt";
+                p.textContent = "$";
+                last.appendChild(p);
+                body.appendChild(last);
+                return;
+            }
+            const { cmd, out, ok, warn } = lines[index];
+            const el = document.createElement("div");
+            body.appendChild(el);
+
+            if (cmd !== undefined) {
+                typeLine(el, cmd, "t-cmd", true, () => {
+                    setTimeout(() => runScript(index + 1), 320);
+                });
+            } else {
+                let cls = "t-out";
+                if (ok) cls += " ok";
+                if (warn) cls += " warn";
+                typeLine(el, out, cls, false, () => {
+                    setTimeout(() => runScript(index + 1), 220);
+                });
+            }
+        }
+
+        setTimeout(() => runScript(0), 600);
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
 </html>
