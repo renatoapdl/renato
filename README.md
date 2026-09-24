@@ -22,12 +22,13 @@ Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética d
 ```
 .
 ├── index.html          # página principal (home, sobre, experiência, habilidades, projetos, ROEN, contato)
-├── artigos.html        # página de artigos
 ├── pages/
-│   └── roen.html       # ROEN e artigo da antena VGOS
+│   ├── roen.html       # ROEN e artigo da antena VGOS
+│   └── artigos.html    # página de artigos
 ├── css/
 │   └── style.css       # tema dark / terminal
-└── assets/             # favicon, fotos e imagens
+└── assets/
+    └── images/         # favicon, foto de perfil e imagens
 ```
 
 ## Tecnologias utilizadas
