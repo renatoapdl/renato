@@ -15,6 +15,7 @@ Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética d
 - **Projetos** — Trabalhos e experimentos selecionados.
 - **ROEN** — Página dedicada ao Rádio Observatório Espacial do Nordeste, onde trabalho.
 - **Artigos** — Textos e reflexões apresentados em caixas de leitura estilo terminal.
+- **Currículo** — Versão online do currículo com download em PDF.
 - **Contato** — GitHub, LinkedIn, YouTube, Instagram, e-mail e localização.
 
 ## Estrutura
@@ -24,11 +25,14 @@ Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética d
 ├── index.html          # página principal (home, sobre, experiência, habilidades, projetos, ROEN, contato)
 ├── pages/
 │   ├── roen.html       # ROEN e artigo da antena VGOS
-│   └── artigos.html    # página de artigos
+│   ├── artigos.html    # página de artigos
+│   ├── curriculo.html  # currículo online (com download em PDF)
 ├── css/
 │   └── style.css       # tema dark / terminal
 └── assets/
-    └── images/         # favicon, foto de perfil e imagens
+    ├── curriculo.pdf    # currículo para download
+    ├── curriculo_ats.md # fonte do currículo em markdown (ATS)
+    └── images/          # favicon, foto de perfil e imagens
 ```
 
 ## Tecnologias utilizadas
