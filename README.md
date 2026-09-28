@@ -48,7 +48,7 @@ Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética d
 
 ## Autor
 
-**Renato Abreu** — Engenheiro Eletricista & Dev Python
+**Renato Abreu** — Engenheiro Eletricista & Engenheiro de Dados
 
 ## Redes sociais
 
