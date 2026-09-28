@@ -1,6 +1,6 @@
 # Portfólio Pessoal — Renato Abreu
 
-Site pessoal apresentando minha trajetória de Engenheiro Eletricista na rede global IVS-NASA em transição para desenvolvimento de software e análise de dados.
+Site pessoal apresentando minha trajetória de Engenheiro Eletricista na rede global IVS-NASA em transição para desenvolvimento de software e engenharia de dados.
 
 **Link:** [https://renatoapdl.github.io/renato/](https://renatoapdl.github.io/renato/)
 
