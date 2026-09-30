@@ -1,4 +1,4 @@
-# Portfólio Pessoal — Renato Abreu
+# Portfólio pessoal de Renato Abreu
 
 Site pessoal apresentando minha trajetória de Engenheiro Eletricista na rede global IVS-NASA em transição para desenvolvimento de software e engenharia de dados.
 
@@ -8,15 +8,15 @@ Site pessoal apresentando minha trajetória de Engenheiro Eletricista na rede gl
 
 Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética de terminal e tema dark. Conteúdo:
 
-- **Home** — Terminal animado (`whoami`, `cat resumo.md`, `git log --oneline --carreira`...) com métricas reais do trabalho.
-- **Sobre mim** — Apresentação pessoal e profissional.
-- **Experiência** — Linha do tempo em estilo de código, com impacto mensurável em cada função.
-- **Habilidades** — Chips separando o que é **dominado** (verde) do que está **em aprendizado** (lilás).
-- **Projetos** — Trabalhos e experimentos selecionados.
-- **ROEN** — Página dedicada ao Rádio Observatório Espacial do Nordeste, onde trabalho.
-- **Artigos** — Textos e reflexões apresentados em caixas de leitura estilo terminal.
-- **Currículo** — Versão online do currículo com download em PDF.
-- **Contato** — GitHub, LinkedIn, YouTube, Instagram, e-mail e localização.
+- **Home**: terminal animado (`whoami`, `cat resumo.md`, `git log --oneline --carreira`...) com métricas reais do trabalho.
+- **Sobre mim**: apresentação pessoal e profissional.
+- **Experiência**: linha do tempo em estilo de código, com impacto mensurável em cada função.
+- **Habilidades**: chips separando o que é **dominado** (verde) do que está **em aprendizado** (lilás).
+- **Projetos**: trabalhos e experimentos selecionados.
+- **ROEN**: página dedicada ao Rádio Observatório Espacial do Nordeste, onde trabalho.
+- **Artigos**: textos e reflexões apresentados em caixas de leitura estilo terminal.
+- **Currículo**: versão online do currículo com download em PDF.
+- **Contato**: GitHub, LinkedIn, YouTube, Instagram, e-mail e localização.
 
 ## Estrutura
 
@@ -44,11 +44,11 @@ Desenvolvido com HTML5, CSS3 e JavaScript puro (sem frameworks), com estética d
 
 ## Artigo em destaque
 
-**"Você está voando atrás do avião?"** — Reflexão sobre o medo de quem desenvolve em relação à IA e a importância de manter o espírito hacker.
+**"Você está voando atrás do avião?"**: reflexão sobre o medo de quem desenvolve em relação à IA e a importância de manter o espírito hacker.
 
 ## Autor
 
-**Renato Abreu** — Engenheiro Eletricista & Engenheiro de Dados
+**Renato Abreu**: Engenheiro Eletricista & Engenheiro de Dados
 
 ## Redes sociais
 

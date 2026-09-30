@@ -10,7 +10,7 @@ Landing Page: renatoapdl.github.io/renato/
 
 ## RESUMO PROFISSIONAL
 
-Engenheiro Eletricista com 14+ anos em infraestrutura crítica no Rádio Observatório Espacial do Nordeste (Mackenzie/NASA), garantindo confiabilidade e disponibilidade de sistemas de missão crítica vinculados à rede global IVS-NASA. Em transição ativa para Engenharia de Dados, com experiência em monitoramento de telemetria, dashboards de performance (Dashboards, Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí pipeline ETL em PySpark com camadas bruto/tratado em Parquet, validação de dados e testes automatizados. Busco oportunidade de entrada em Engenharia de Dados.
+Engenheiro Eletricista com 14+ anos em infraestrutura crítica no Rádio Observatório Espacial do Nordeste (Mackenzie/NASA), garantindo confiabilidade e disponibilidade de sistemas de missão crítica vinculados à rede global IVS-NASA. Em transição ativa para Engenharia de Dados, com experiência em monitoramento de telemetria, dashboards de performance (Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí pipeline ETL em PySpark com camadas bruto/tratado em Parquet, validação de dados e testes automatizados, além de um case de tratamento de dados em Databricks SQL. Busco oportunidade de entrada em Engenharia de Dados.
 
 ---
 
@@ -42,6 +42,10 @@ Engenheiro Eletricista com 14+ anos em infraestrutura crítica no Rádio Observa
 Pipeline ETL de vendas construído em PySpark: extração de CSV, validação e limpeza (27 → 25 → 23 registros válidos), carga em camadas bruto/tratado (Parquet) e sumarizações (faturamento, ticket médio). Inclui 9 testes automatizados e documentação completa.
 github.com/renatoapdl/pipeline-etl-vendas
 
+**case-tratamento-input (Databricks)** | Databricks SQL, Data Quality
+Case de qualidade de dados no Databricks SQL: 13 regras de negócio aplicadas em uma única consulta (bronze ao ouro), sentinelas, normalização de CPF/telefone, estado com nome completo e auditoria coluna a coluna (19 InvalidState vs 18 InvalidCountry). Decisões de engenharia e resultados documentados.
+github.com/renatoapdl/case-tratamento-input
+
 **clima-eusebio** | Python, API REST
 Aplicação que consome API REST (wttr.in), processa dados JSON e atualiza informações em tempo real a cada 5 minutos.
 github.com/renatoapdl/clima-eusebio
@@ -58,7 +62,7 @@ github.com/renatoapdl/fgo-data-update
 
 **SQL:** Consultas, agregações, JOINs, modelagem de dados (em desenvolvimento avançado)
 
-**Ferramentas de Dados:** Grafana, Parquet, Jupyter Notebook
+**Ferramentas de Dados:** Grafana, Parquet, Databricks SQL, Jupyter Notebook
 
 **Programação:** Python, Git/GitHub, APIs REST
 

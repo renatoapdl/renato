@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Currículo de Renato Abreu — Engenheiro de Dados, Python, PySpark e SQL. 14+ anos em infraestrutura crítica NASA.">
+    <meta name="description" content="Currículo de Renato Abreu. Engenheiro de Dados, Python, PySpark e SQL. 14+ anos em infraestrutura crítica NASA.">
     <title>Currículo | Renato Abreu</title>
     <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../css/style.css">
@@ -64,7 +64,8 @@
 
                             <h2>Resumo profissional</h2>
                             <p>Engenheiro Eletricista com <strong>14+ anos</strong> em infraestrutura crítica no Rádio Observatório Espacial do Nordeste (Mackenzie/NASA), garantindo a confiabilidade e a disponibilidade de sistemas de missão crítica vinculados à rede global IVS-NASA.</p>
-                            <p>Em transição ativa para <strong>Engenharia de Dados</strong>, apliquei no observatório os mesmos princípios que hoje guiam trabalhos com dados: monitoramento contínuo de telemetria, dashboards de performance (Dashboards, Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí um pipeline ETL em <strong>PySpark</strong> com camadas bruto/tratado em Parquet, validação e limpeza de dados e <strong>9 testes automatizados</strong> — unindo a mentalidade de confiabilidade da engenharia à qualidade de dados.</p>
+                            <p>Em transição ativa para <strong>Engenharia de Dados</strong>, apliquei no observatório os mesmos princípios que hoje guiam trabalhos com dados: monitoramento contínuo de telemetria, dashboards de performance (Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí um pipeline ETL em <strong>PySpark</strong> com camadas bruto/tratado em Parquet, validação e limpeza de dados e <strong>9 testes automatizados</strong>, unindo a mentalidade de confiabilidade da engenharia à qualidade de dados.</p>
+                            <p>Também rodei um case de tratamento de dados em <strong>Databricks SQL</strong>: 13 regras de negócio em uma única consulta, com auditoria coluna a coluna que corrigiu a própria referência (<a href="https://github.com/renatoapdl/case-tratamento-input" target="_blank" rel="external">case-tratamento-input</a>).</p>
                             <p>Busco oportunidade de entrada na área de Engenharia de Dados.</p>
 
                             <span class="cv-divider">// -------------------------------------------------------</span>
@@ -116,7 +117,15 @@
                             <ul>
                                 <li>Pipeline ETL de vendas: extração de CSV, validação e limpeza de dados (<strong>27 → 25 → 23</strong> registros válidos);</li>
                                 <li>Carga em camadas <strong>bruto/tratado</strong> em Parquet e sumarizações (faturamento, ticket médio);</li>
-                                <li>Inclui <strong>9 testes automatizados</strong> e documentação completa de arquitetura — <a href="https://github.com/renatoapdl/pipeline-etl-vendas" target="_blank" rel="external">github.com/renatoapdl/pipeline-etl-vendas</a>.</li>
+                                <li>Inclui <strong>9 testes automatizados</strong> e documentação completa de arquitetura. <a href="https://github.com/renatoapdl/pipeline-etl-vendas" target="_blank" rel="external">github.com/renatoapdl/pipeline-etl-vendas</a></li>
+                            </ul>
+
+                            <h3>case-tratamento-input — Case Databricks SQL</h3>
+                            <p class="cv-sub">Stack: Databricks SQL, Data Quality</p>
+                            <ul>
+                                <li>Case de qualidade de dados com <strong>13 regras de negócio em uma única consulta</strong> (bronze ao ouro);</li>
+                                <li>Sentinelas, normalização de CPF/telefone e coluna de estado com nome completo (27 UFs);</li>
+                                <li>Auditoria coluna a coluna via derived table, que corrigiu a própria referência (19 <code>InvalidState</code>, não 18). <a href="https://github.com/renatoapdl/case-tratamento-input" target="_blank" rel="external">github.com/renatoapdl/case-tratamento-input</a></li>
                             </ul>
 
                             <h3>clima-eusebio — Dados em Tempo Real</h3>
@@ -154,6 +163,7 @@
                             <h3>Ferramentas de Dados</h3>
                             <ul>
                                 <li>Grafana (dashboards de performance operacional);</li>
+                                <li>Databricks SQL (case de tratamento de dados);</li>
                                 <li>Parquet, Git/GitHub, APIs REST.</li>
                             </ul>
 
