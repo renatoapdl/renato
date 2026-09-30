@@ -1,5 +1,10 @@
 # Portfólio pessoal de Renato Abreu
 
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://html.spec.whatwg.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://pages.github.com/)
+
 Site pessoal apresentando minha trajetória de Engenheiro Eletricista na rede global IVS-NASA em transição para desenvolvimento de software e engenharia de dados.
 
 **Link:** [https://renatoapdl.github.io/renato/](https://renatoapdl.github.io/renato/)
