@@ -1,6 +1,6 @@
 # FRANCISCO RENATO HOLANDA DE ABREU
 
-Engenheiro de Dados | Python, PySpark, SQL | 14+ anos em infraestrutura crítica NASA
+Engenheiro de Dados | Python, PySpark, SQL | 14+ anos em infraestrutura crítica Mackenzie/NASA
 
 Eusébio – CE | renatoaopedaletra@gmail.com | (85) 98677-9537
 LinkedIn: linkedin.com/in/renatoabreuengenharia | GitHub: github.com/renatoapdl
@@ -10,7 +10,7 @@ Landing Page: renatoapdl.github.io/renato/
 
 ## RESUMO PROFISSIONAL
 
-Engenheiro Eletricista com 14+ anos em infraestrutura crítica no Rádio Observatório Espacial do Nordeste (Mackenzie/NASA), garantindo confiabilidade e disponibilidade de sistemas de missão crítica vinculados à rede global IVS-NASA. Em transição ativa para Engenharia de Dados, com experiência em monitoramento de telemetria, dashboards de performance (Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí pipeline ETL em PySpark com camadas bruto/tratado em Parquet, validação de dados e testes automatizados, além de um case de tratamento de dados em Databricks SQL. Busco oportunidade de entrada em Engenharia de Dados.
+Engenheiro Eletricista com 14+ anos em infraestrutura crítica no Rádio Observatório Espacial do Nordeste (Mackenzie/NASA), garantindo confiabilidade e disponibilidade de sistemas de missão crítica vinculados à rede global IVS-NASA. Em transição ativa para Engenharia de Dados, com experiência em monitoramento de telemetria, dashboards de performance (Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí pipeline ETL em PySpark com arquitetura Medallion (Bronze/Silver/Gold), modelo estrela, quality gate que bloqueia a publicação e 11 testes automatizados; 10 queries SQL analíticas validadas no Databricks Community Edition. Busco oportunidade de entrada em Engenharia de Dados.
 
 ---
 
@@ -38,8 +38,8 @@ Engenheiro Eletricista com 14+ anos em infraestrutura crítica no Rádio Observa
 
 ## PROJETOS RELEVANTES
 
-**pipeline-etl-vendas** | Python, PySpark, Parquet
-Pipeline ETL de vendas construído em PySpark: extração de CSV, validação e limpeza (27 → 25 → 23 registros válidos), carga em camadas bruto/tratado (Parquet) e sumarizações (faturamento, ticket médio). Inclui 9 testes automatizados e documentação completa.
+**pipeline-etl-vendas** | Python, PySpark, SQL, Parquet, Databricks, pytest
+Pipeline ETL de vendas em PySpark com arquitetura Medallion (Bronze/Silver/Gold): 27 → 23 registros válidos, modelo estrela (dim_cliente, dim_produto, fato_vendas) e quality gate que bloqueia a publicação do Gold. Inclui 11 testes automatizados e 10 queries SQL (window functions, CTEs, subqueries) validadas no Databricks Community Edition, com reconciliação Gold × Silver.
 github.com/renatoapdl/pipeline-etl-vendas
 
 **case-tratamento-input (Databricks)** | Databricks SQL, Data Quality
@@ -58,11 +58,11 @@ github.com/renatoapdl/fgo-data-update
 
 ## COMPETÊNCIAS
 
-**Engenharia de Dados:** ETL, Pipelines de Dados, PySpark, Pandas, Data Quality, Camadas bronze/prata/ouro, Arquitetura de Dados
+**Engenharia de Dados:** ETL, Data Pipelines, PySpark, Pandas, Data Quality, Data Validation, Data Cleansing, Quality Gate, Medallion (bronze/prata/ouro), Modelagem Dimensional (Data Modeling), Modelo Estrela, Arquitetura de Dados
 
-**SQL:** Consultas, agregações, JOINs, modelagem de dados (em desenvolvimento avançado)
+**SQL:** Consultas, agregações, JOINs, window functions (ROW_NUMBER, RANK, LAG, SUM OVER), CTEs, subqueries e modelagem estrela
 
-**Ferramentas de Dados:** Grafana, Parquet, Databricks SQL, Jupyter Notebook
+**Ferramentas de Dados:** Databricks (Community Edition), Spark SQL, Parquet, Grafana, Jupyter Notebook, pytest
 
 **Programação:** Python, Git/GitHub, APIs REST
 
@@ -86,3 +86,10 @@ github.com/renatoapdl/fgo-data-update
 
 Técnico em Eletrotécnica — CEPEP (2010-2011)
 Cybersecurity and Privacy Awareness Training — NASA (2026)
+
+---
+
+## FORMAÇÃO COMPLEMENTAR
+
+Airflow 101 Learning Path (Airflow 3) — em andamento — 2026
+Santander Open Academy — Dados com Python e IA (DIO) — em andamento — 2026

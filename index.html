@@ -84,10 +84,10 @@
                         </p>
                         <p>
                             Estou em transição ativa para <strong>Engenharia de Dados</strong>: já construí
-                            um pipeline ETL em <strong>PySpark</strong> (camadas bruto/tratado em Parquet,
-                            9 testes automatizados) e sigo aprofundando SQL, modelagem e orquestração,
-                            traduzindo os indicadores da indústria (MTTR, SLA, OEE) para pipelines e
-                            qualidade de dados.
+                            um pipeline ETL em <strong>PySpark</strong> com arquitetura Medallion, modelo estrela,
+                            quality gate e 11 testes automatizados, e sigo aprofundando SQL, modelagem e
+                            orquestração, traduzindo os indicadores da indústria (MTTR, SLA, OEE) para
+                            pipelines e qualidade de dados.
                         </p>
                     </div>
                 </div>
@@ -175,9 +175,9 @@
                     <h4>Dados &amp; Python (dominado)</h4>
                     <ul>
                         <li>Python — scripts e automação em produção</li>
-                        <li>PySpark — pipeline ETL (bruto/tratado em Parquet)</li>
-                        <li>SQL — consultas, JOINs e agregações</li>
-                        <li>Databricks SQL, case de tratamento (bronze ao ouro)</li>
+                        <li>PySpark — pipeline ETL (Medallion, modelo estrela e quality gate)</li>
+                        <li>SQL — consultas, JOINs, window functions e CTEs</li>
+                        <li>Databricks (Community Edition) e Databricks SQL</li>
                         <li>Grafana — dashboards de performance</li>
                         <li>Consumo e integração de APIs REST (JSON)</li>
                         <li>Git / GitHub e versionamento</li>
@@ -247,9 +247,9 @@
                         <a class="project-name" href="https://github.com/renatoapdl/pipeline-etl-vendas" target="_blank" rel="external">pipeline-etl-vendas</a>
                         <span class="project-badge">PySpark</span>
                     </div>
-                    <p>Pipeline ETL de vendas em PySpark: extração de CSV, validação e limpeza de dados
-                        (27 → 23 registros), camadas bruto/tratado em Parquet e 9 testes automatizados.</p>
-                    <div class="project-meta">PySpark · Parquet · medallion</div>
+                    <p>Pipeline ETL de vendas em PySpark: arquitetura Medallion (27 → 23 registros), modelo
+                        estrela, quality gate que bloqueia a publicação do Gold e 11 testes automatizados.</p>
+                    <div class="project-meta">PySpark · Parquet · medallion · data quality</div>
                     <a class="project-link" href="https://github.com/renatoapdl/pipeline-etl-vendas" target="_blank" rel="external">github.com/renatoapdl/pipeline-etl-vendas</a>
                 </div>
 
@@ -391,7 +391,7 @@
             { cmd: "git log --oneline --carreira" },
             { out: "feat: pipeline ETL em PySpark (27→23 registros)" },
             { out: "feat: dashboards de confiabilidade (MTTR -35%)" },
-            { out: "feat: camadas bruto/tratado em Parquet (medallion)" },
+            { out: "feat: arquitetura Medallion + quality gate (Gold)" },
             { out: "wip: sql · grafana · engenharia de dados", warn: true },
             { out: "em produção: python + pyspark · próx: airflow", ok: true },
         ];

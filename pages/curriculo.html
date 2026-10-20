@@ -64,7 +64,7 @@
 
                             <h2>Resumo profissional</h2>
                             <p>Engenheiro Eletricista com <strong>14+ anos</strong> em infraestrutura crítica no Rádio Observatório Espacial do Nordeste (Mackenzie/NASA), garantindo a confiabilidade e a disponibilidade de sistemas de missão crítica vinculados à rede global IVS-NASA.</p>
-                            <p>Em transição ativa para <strong>Engenharia de Dados</strong>, apliquei no observatório os mesmos princípios que hoje guiam trabalhos com dados: monitoramento contínuo de telemetria, dashboards de performance (Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí um pipeline ETL em <strong>PySpark</strong> com camadas bruto/tratado em Parquet, validação e limpeza de dados e <strong>9 testes automatizados</strong>, unindo a mentalidade de confiabilidade da engenharia à qualidade de dados.</p>
+                            <p>Em transição ativa para <strong>Engenharia de Dados</strong>, apliquei no observatório os mesmos princípios que hoje guiam trabalhos com dados: monitoramento contínuo de telemetria, dashboards de performance (Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí um pipeline ETL em <strong>PySpark</strong> com arquitetura <strong>Medallion (Bronze/Silver/Gold)</strong>, modelo estrela e <strong>quality gate</strong> que bloqueia a publicação do Gold, com <strong>11 testes automatizados</strong> e 10 queries SQL analíticas validadas no <strong>Databricks Community Edition</strong>, unindo a mentalidade de confiabilidade da engenharia à qualidade de dados.</p>
                             <p>Também rodei um case de tratamento de dados em <strong>Databricks SQL</strong>: 13 regras de negócio em uma única consulta, com auditoria coluna a coluna (<a href="https://github.com/renatoapdl/case-tratamento-input" target="_blank" rel="external">case-tratamento-input</a>).</p>
                             <p>Busco oportunidade de entrada na área de Engenharia de Dados.</p>
 
@@ -113,11 +113,12 @@
                             <h2>Projetos relevantes</h2>
 
                             <h3>pipeline-etl-vendas — Pipeline ETL em PySpark</h3>
-                            <p class="cv-sub">Stack: Python, PySpark, Parquet</p>
+                            <p class="cv-sub">Stack: Python, PySpark, SQL, Parquet, Databricks, pytest</p>
                             <ul>
-                                <li>Pipeline ETL de vendas: extração de CSV, validação e limpeza de dados (<strong>27 → 25 → 23</strong> registros válidos);</li>
-                                <li>Carga em camadas <strong>bruto/tratado</strong> em Parquet e sumarizações (faturamento, ticket médio);</li>
-                                <li>Inclui <strong>9 testes automatizados</strong> e documentação completa de arquitetura. <a href="https://github.com/renatoapdl/pipeline-etl-vendas" target="_blank" rel="external">github.com/renatoapdl/pipeline-etl-vendas</a></li>
+                                <li>Pipeline ETL de vendas com arquitetura <strong>Medallion (Bronze/Silver/Gold)</strong>: <strong>27 → 23</strong> registros válidos;</li>
+                                <li>Modelo estrela (<code>dim_cliente</code>, <code>dim_produto</code>, <code>fato_vendas</code>) e <strong>quality gate</strong> que bloqueia a publicação do Gold;</li>
+                                <li>10 queries SQL (window functions, CTEs, subqueries) validadas no Databricks Community Edition, com reconciliação Gold × Silver;</li>
+                                <li>Inclui <strong>11 testes automatizados</strong> e documentação completa de arquitetura. <a href="https://github.com/renatoapdl/pipeline-etl-vendas" target="_blank" rel="external">github.com/renatoapdl/pipeline-etl-vendas</a></li>
                             </ul>
 
                             <h3>case-tratamento-input — Case Databricks SQL</h3>
@@ -147,24 +148,26 @@
 
                             <h3>Engenharia de Dados</h3>
                             <ul>
-                                <li>ETL e Pipelines de Dados;</li>
+                                <li>ETL e Data Pipelines;</li>
                                 <li>PySpark (Spark DataFrames, colunas, agregações, leitura/escrita Parquet);</li>
-                                <li>Data Quality e Validação de Dados;</li>
-                                <li>Camadas bronze/prata/ouro (arquitetura medallion);</li>
+                                <li>Data Quality, Data Validation, Data Cleansing e quality gate com bloqueio de publicação;</li>
+                                <li>Arquitetura Medallion (bronze/prata/ouro), modelagem dimensional (Data Modeling) e modelo estrela;</li>
                                 <li>Pandas, Jupyter Notebook.</li>
                             </ul>
 
                             <h3>SQL</h3>
                             <ul>
                                 <li>Consultas, JOINs, agregações;</li>
-                                <li>Modelagem de dados (em desenvolvimento avançado).</li>
+                                <li>Window functions (ROW_NUMBER, RANK, LAG, SUM OVER), CTEs e subqueries;</li>
+                                <li>Modelagem estrela (dimensões + fato).</li>
                             </ul>
 
                             <h3>Ferramentas de Dados</h3>
                             <ul>
+                                <li>Databricks (Community Edition) e Databricks SQL;</li>
+                                <li>Spark SQL, Parquet, pytest;</li>
                                 <li>Grafana (dashboards de performance operacional);</li>
-                                <li>Databricks SQL (case de tratamento de dados);</li>
-                                <li>Parquet, Git/GitHub, APIs REST.</li>
+                                <li>Git/GitHub, APIs REST.</li>
                             </ul>
 
                             <h3>Programação</h3>
@@ -207,7 +210,15 @@
                             </ul>
 
                             <span class="cv-divider">// -------------------------------------------------------</span>
-                            <p class="cv-fim">Última atualização: Setembro 2026 — v3 (posicionamento em Engenharia de Dados)</p>
+
+                            <h2>Formação complementar</h2>
+                            <ul>
+                                <li>Airflow 101 Learning Path (Airflow 3) — em andamento (2026);</li>
+                                <li>Santander Open Academy — Dados com Python e IA (DIO) — em andamento (2026).</li>
+                            </ul>
+
+                            <span class="cv-divider">// -------------------------------------------------------</span>
+                            <p class="cv-fim">Última atualização: Outubro 2026 — v4 (Medallion, modelo estrela e quality gate)</p>
                         </div>
                     </article>
 
