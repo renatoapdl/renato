@@ -50,10 +50,6 @@ github.com/renatoapdl/case-tratamento-input
 Aplicação que consome API REST (wttr.in), processa dados JSON e atualiza informações em tempo real a cada 5 minutos.
 github.com/renatoapdl/clima-eusebio
 
-**fgo-data-update** | Python, Automação de Dados
-Automação da atualização de dados de discos VLBI do Rádio Observatório Espacial do Nordeste (Mackenzie/NASA).
-github.com/renatoapdl/fgo-data-update
-
 ---
 
 ## COMPETÊNCIAS
