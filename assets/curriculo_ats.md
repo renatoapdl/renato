@@ -10,7 +10,7 @@ Landing Page: renatoapdl.github.io/renato/
 
 ## RESUMO PROFISSIONAL
 
-Engenheiro Eletricista com 14+ anos em infraestrutura crítica no Rádio Observatório Espacial do Nordeste (Mackenzie/NASA), garantindo confiabilidade e disponibilidade de sistemas de missão crítica vinculados à rede global IVS-NASA. Em transição ativa para Engenharia de Dados, com experiência em monitoramento de telemetria, dashboards de performance (Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí pipeline ETL em PySpark com arquitetura Medallion (Bronze/Silver/Gold), modelo estrela, quality gate que bloqueia a publicação e 11 testes automatizados; 10 queries SQL analíticas validadas no Databricks Community Edition. Busco oportunidade de entrada em Engenharia de Dados.
+Engenheiro Eletricista com 14+ anos em infraestrutura crítica no Rádio Observatório Espacial do Nordeste (Mackenzie/NASA), garantindo confiabilidade e disponibilidade de sistemas de missão crítica vinculados à rede global IVS-NASA. Em transição ativa para Engenharia de Dados, com experiência em monitoramento de telemetria, dashboards de performance (Grafana, MTTR, SLA) e automação de coleta e processamento de dados com Python. Construí pipeline ETL em PySpark com arquitetura Medallion (Bronze/Silver/Gold), modelo estrela, quality gate que bloqueia a publicação e 11 testes automatizados; 10 queries SQL analíticas validadas no Databricks. Busco oportunidade de entrada em Engenharia de Dados.
 
 ---
 
@@ -62,7 +62,7 @@ github.com/renatoapdl/fgo-data-update
 
 **SQL:** Consultas, agregações, JOINs, window functions (ROW_NUMBER, RANK, LAG, SUM OVER), CTEs, subqueries e modelagem estrela
 
-**Ferramentas de Dados:** Databricks (Community Edition), Spark SQL, Parquet, Grafana, Jupyter Notebook, pytest
+**Ferramentas de Dados:** Databricks, Spark SQL, Parquet, Grafana, Jupyter Notebook, pytest
 
 **Programação:** Python, Git/GitHub, APIs REST
 
@@ -91,5 +91,5 @@ Cybersecurity and Privacy Awareness Training — NASA (2026)
 
 ## FORMAÇÃO COMPLEMENTAR
 
-Airflow 101 Learning Path (Airflow 3) — em andamento — 2026
+Airflow 101 Learning Path (Airflow 3) — Astronomer Academy (2026)
 Santander Open Academy — Dados com Python e IA (DIO) — em andamento — 2026
